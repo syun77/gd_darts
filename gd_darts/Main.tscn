@@ -4,3 +4,13 @@
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_105c3")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(384, 320)
+
+[node name="ColorRect" type="ColorRect" parent="Marker2D"]
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+color = Color(0.0901961, 0.0901961, 0.0901961, 0.403922)
